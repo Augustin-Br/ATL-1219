@@ -67,18 +67,30 @@ public class Crypto
      * texte
      */
 
-    public static int[] frequences( final String pFile )
-    {
-        String vTxt = readFile(pFile);
-        vTxt = vTxt.toUpperCase();
+    public static int[] frequences( final String pFile ) {
+        String vTxt = readFile(pFile); // On lit le fichier
+        vTxt = vTxt.toUpperCase(); // On convertit en majuscules
 
         /* Tableau de frequences (vOcc[k]:Nbr d'occurrences de la k-ieme
            lettre de l'alphabet dans la chaine vTxt) */
-        int[] vOcc= new int[26];
+        int[] vOcc = new int[26];
         //========== TODO Question-1
+
+        for (int i = 0; i < vTxt.length(); i++) { // On parcourt le texte
+            char c = vTxt.charAt(i); // On récupère le caractère
+            if (c >= 'A' && c <= 'Z') { // Si c'est une lettre
+                vOcc[c - 'A']++; // On incrémente la fréquence de la lettre
+                //System.out.println(c +" : " + vOcc[c - 'A']);
+            }
+        }
 
 
         //========== Fin TODO Question-1
+
+        System.out.println("Frequences des lettres dans le fichier " + pFile + ":"); // Affichage
+        for (int i = 0; i < vOcc.length; i++){ // On parcourt le tableau
+            System.out.print((char) ('A' + i) + " : " + vOcc[i] + ", "); // On affiche la lettre et sa fréquence
+        }
         return vOcc;
     } // frequences()
 
@@ -90,11 +102,19 @@ public class Crypto
 
     public static String subDecrypt( final String pFile, final char[] pKey )
     {
-        String vChiffre = readFile(pFile);
-        vChiffre = vChiffre.toUpperCase();
-        String vClair = "";
+        String vChiffre = readFile(pFile); // On lit le fichier
+        vChiffre = vChiffre.toUpperCase(); // On convertit en majuscules
+        String vClair = ""; // Variable qui contiendra le texte déchiffré
         //=========== TODO Question-3
 
+        for (int i = 0; i < vChiffre.length(); i++) { // On parcourt le texte
+            char c = vChiffre.charAt(i); // On récupère le caractère
+            if (c >= 'A' && c <= 'Z') { // Si c'est une lettre
+                vClair += pKey[c - 'A']; // On ajoute la lettre déchiffrée
+            } else { // Si ce n'est pas une lettre donc un espace ou un point
+                vClair += c; // On ajoute le caractère
+            }
+        }
 
         //=========== Fin TODO Question-3
         return vClair;
