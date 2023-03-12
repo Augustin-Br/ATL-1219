@@ -127,13 +127,28 @@ public class Crypto
 
     public static void ecbXor( final String pInfile, final String pOutfile, final String pKey )
     {
+
         //=========== TODO Question-5
+
+        byte[] vKey = strToByte(pKey); // On convertit la clé en tableau de bytes
+        String vCont = readFile(pInfile); // On lit le fichier
+        byte[] vFileCont = strToByte(vCont); // On convertit le contenu du fichier en tableau de bytes
+        byte[] vFileOut = new byte[vFileCont.length]; // On crée un tableau de bytes qui contiendra le contenu du fichier chiffré
+        String vRes = ""; // Variable qui contiendra le texte chiffré
+
+        for(int i = 0; i < vFileCont.length; i++) { // On parcourt le tableau de bytes
+            vFileOut[i] = (byte) (vFileCont[i] ^ vKey[i % 4]); // On applique le XOR
+        }
+
+        vRes += byteToStr(vFileOut); // On convertit le tableau de bytes en String
+
+        writeFile(vRes, pOutfile, true); // On écrit le résultat dans le fichier de sortie
 
         //=========== Fin TODO Question-5
     } // ecbXor()
 
 
-    /*=============== Tests et invocations de m�thodes ============================*/
+    /*=============== Tests et invocations de méthodes ============================*/
 
     public static void main( final String[] pArgs )
     {
