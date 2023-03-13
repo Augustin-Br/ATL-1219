@@ -157,22 +157,21 @@ public class Crypto
         //TODO Question-3
 
         char[] vTabChar = {'V', 'K', 'Z', 'M', 'H', 'N', 'O', 'P', 'C', 'Q', 'R', 'S', 'T', 'Y', 'I', 'J', 'X', 'D', 'L', 'E', 'G', 'W', 'U', 'A', 'B', 'F'}; // tableau de correspondance
-        System.out.println(subDecrypt("src/Code", vTabChar)); // On déchiffre le texte
+        System.out.println(subDecrypt("src/q3.TXT", vTabChar)); // On déchiffre le texte
 
         //Fin TODO Question-3
 
         /*=============================================================*/
 
         //TODO Question-4
-        char[] vKeyDec6 = {'U', 'V', 'W', 'X', 'Y', 'Z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T'};
-        System.out.println(subDecrypt("src/q4", vKeyDec6));
-
+        char[] vKeyDec6 = {'U', 'V', 'W', 'X', 'Y', 'Z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T'}; // tableau de correspondance avec un décallage de 6
+        System.out.println(subDecrypt("src/q4.TXT", vKeyDec6)); // On déchiffre le texte
         //Fin TODO Question-4
 
         /*=============================================================*/
 
         //TODO Question-6
-
+        ecbXor("src/q6.TXT", "src/q6C.TXT", "ABCD"); // On chiffre le texte du fichier avec la clé ABCD
         //Fin TODO Question-6
 
         /*=============================================================*/
