@@ -153,7 +153,6 @@ public class Crypto
     public static void main( final String[] pArgs )
     {
 
-
         //TODO Question-3
 
         char[] vTabChar = {'V', 'K', 'Z', 'M', 'H', 'N', 'O', 'P', 'C', 'Q', 'R', 'S', 'T', 'Y', 'I', 'J', 'X', 'D', 'L', 'E', 'G', 'W', 'U', 'A', 'B', 'F'}; // tableau de correspondance
