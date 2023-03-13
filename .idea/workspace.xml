@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="065aa78a-a498-474c-b0ce-2ce2a1aba021" name="Changes" comment="7/03/2023">
-      <change afterPath="$PROJECT_DIR$/src/ecbXorClair" afterDir="false" />
+    <list default="true" id="065aa78a-a498-474c-b0ce-2ce2a1aba021" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Crypto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Crypto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enigma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Enigma.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/q6C.TXT" beforeDir="false" afterPath="$PROJECT_DIR$/src/q6C.TXT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/q8.TXT" beforeDir="false" afterPath="$PROJECT_DIR$/src/q8.TXT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/q9Claire.TXT" beforeDir="false" afterPath="$PROJECT_DIR$/src/q9Claire.TXT" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,19 +39,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,6 +62,7 @@
       <updated>1678198294283</updated>
       <workItem from="1678198295520" duration="6428000" />
       <workItem from="1678611051446" duration="6021000" />
+      <workItem from="1678706532317" duration="1995000" />
     </task>
     <task id="LOCAL-00001" summary="7/03/2023">
       <created>1678198494741</created>
@@ -74,7 +78,28 @@
       <option name="project" value="LOCAL" />
       <updated>1678611963959</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="13/03/2023">
+      <created>1678706582847</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678706582847</updated>
+    </task>
+    <task id="LOCAL-00004" summary="13/03/2023">
+      <created>1678706719386</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678706719386</updated>
+    </task>
+    <task id="LOCAL-00005" summary="13/03/2023">
+      <created>1678706732228</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678706732228</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,6 +108,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="7/03/2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="7/03/2023" />
+    <MESSAGE value="13/03/2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="13/03/2023" />
   </component>
 </project>
