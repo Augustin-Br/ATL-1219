@@ -176,7 +176,8 @@ public class Crypto
         /*=============================================================*/
 
         //TODO Question-8
-
+        ecbXor("src/q6C.TXT", "src/q8.TXT", "ABCD"); // On déchiffre le texte du fichier avec la clé ABCD
+        // pour déchfiffrer le texte, on utilise la même clé que pour le chiffrer et ont "inverse" le processus
         //Fin TODO Question-8
 
     } // main()
