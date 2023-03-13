@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="065aa78a-a498-474c-b0ce-2ce2a1aba021" name="Changes" comment="7/03/2023">
-      <change afterPath="$PROJECT_DIR$/src/ecbXorClair" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/q4.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Crypto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Crypto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +41,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/augbr/Downloads/Programme-20230313T081904Z-001/Programme",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,6 +59,7 @@
       <updated>1678198294283</updated>
       <workItem from="1678198295520" duration="6428000" />
       <workItem from="1678611051446" duration="6021000" />
+      <workItem from="1678694834929" duration="781000" />
     </task>
     <task id="LOCAL-00001" summary="7/03/2023">
       <created>1678198494741</created>

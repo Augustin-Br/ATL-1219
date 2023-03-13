@@ -156,11 +156,16 @@ public class Crypto
 
         //TODO Question-3
 
+        char[] vTabChar = {'V', 'K', 'Z', 'M', 'H', 'N', 'O', 'P', 'C', 'Q', 'R', 'S', 'T', 'Y', 'I', 'J', 'X', 'D', 'L', 'E', 'G', 'W', 'U', 'A', 'B', 'F'}; // tableau de correspondance
+        System.out.println(subDecrypt("src/Code", vTabChar)); // On déchiffre le texte
+
         //Fin TODO Question-3
 
         /*=============================================================*/
 
         //TODO Question-4
+        char[] vKeyDec6 = {'U', 'V', 'W', 'X', 'Y', 'Z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T'};
+        System.out.println(subDecrypt("src/q4", vKeyDec6));
 
         //Fin TODO Question-4
 
