@@ -185,7 +185,5 @@ public class Crypto
         ecbXor("src/q9.TXT", "src/q9Claire.TXT", "TRLK"); // on met la clé trouvé précédemment
         //Fin TODO Question-9
 
-        //test
-
     } // main()
 } // Crypto
