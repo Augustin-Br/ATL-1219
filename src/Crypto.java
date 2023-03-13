@@ -174,7 +174,6 @@ public class Crypto
         ecbXor("src/q6.TXT", "src/q6C.TXT", "ABCD"); // On chiffre le texte du fichier avec la clé ABCD
         //Fin TODO Question-6
 
-
         /*=============================================================*/
 
         //TODO Question-8
