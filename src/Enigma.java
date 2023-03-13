@@ -53,18 +53,20 @@ public class Enigma
         //TODO Question-10
 
         Rotor vRotor = new Rotor(vR1, vR2, vR3, vRF);
-        System.out.println("Rotor 1 : " + Arrays.deepToString(vRotor.aRotor1[0]));
-        System.out.println("          " + Arrays.deepToString(vRotor.aRotor1[1]) + "\n");
-        System.out.println("Rotor 2 : " + Arrays.deepToString(vRotor.aRotor2[0]));
-        System.out.println("          " + Arrays.deepToString(vRotor.aRotor2[1]) + "\n");
-        System.out.println("Rotor 3 : " + Arrays.deepToString(vRotor.aRotor3[0]));
-        System.out.println("          " + Arrays.deepToString(vRotor.aRotor3[1]) + "\n");
+        System.out.println("Rotor 1 : " + Arrays.toString(vRotor.aRotor1[0]));
+        System.out.println("          " + Arrays.toString(vRotor.aRotor1[1]) + "\n");
+        System.out.println("Rotor 2 : " + Arrays.toString(vRotor.aRotor2[0]));
+        System.out.println("          " + Arrays.toString(vRotor.aRotor2[1]) + "\n");
+        System.out.println("Rotor 3 : " + Arrays.toString(vRotor.aRotor3[0]));
+        System.out.println("          " + Arrays.toString(vRotor.aRotor3[1]) + "\n");
         System.out.println("Reflecteur : " + Arrays.toString(vRotor.aReflecteur));
 
         //Fin TODO Question-10
         /*=============================================================*/
 
         //TODO Question-11
+
+
 
         //Fin TODO Question-11
         /*=============================================================*/
