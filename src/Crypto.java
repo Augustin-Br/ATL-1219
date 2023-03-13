@@ -142,7 +142,7 @@ public class Crypto
 
         vRes += byteToStr(vFileOut); // On convertit le tableau de bytes en String
 
-        writeFile(vRes, pOutfile, true); // On écrit le résultat dans le fichier de sortie
+        writeFile(vRes, pOutfile, false); // On écrit le résultat dans le fichier de sortie
 
         //=========== Fin TODO Question-5
     } // ecbXor()
