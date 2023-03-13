@@ -180,5 +180,10 @@ public class Crypto
         // pour déchfiffrer le texte, on utilise la même clé que pour le chiffrer et ont "inverse" le processus
         //Fin TODO Question-8
 
+        //TODO Question-9
+        //ecbXor("src/q9.TXT", "src/q9Claire.TXT", "<html><head>"); // on sait qu'un fichier html commence par <html, on met donc cette clé
+        ecbXor("src/q9.TXT", "src/q9Claire.TXT", "TRLK"); // on met la clé trouvé précédemment
+        //Fin TODO Question-9
+
     } // main()
 } // Crypto
