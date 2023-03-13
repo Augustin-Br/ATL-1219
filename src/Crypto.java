@@ -184,6 +184,5 @@ public class Crypto
         //ecbXor("src/q9.TXT", "src/q9Claire.TXT", "<html><head>"); // on sait qu'un fichier html commence par <html, on met donc cette clé
         ecbXor("src/q9.TXT", "src/q9Claire.TXT", "TRLK"); // on met la clé trouvé précédemment
         //Fin TODO Question-9
-
     } // main()
 } // Crypto
